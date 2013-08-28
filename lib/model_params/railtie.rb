@@ -20,9 +20,10 @@ module ModelParams
         if new_ctime != initial_ctime && initial_ctime != 0      
           initial_ctime = new_ctime
           ChangeModel.new.add_attr_desc_to_models              
+        else
+          initial_ctime = new_ctime
         end
-
-        initial_ctime = new_ctime
+        
       end
     end
   end
