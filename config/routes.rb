@@ -1,2 +1,2 @@
-ModelParams::Engine.routes.draw do
+ModelAttributes::Engine.routes.draw do
 end

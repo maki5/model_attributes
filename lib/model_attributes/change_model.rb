@@ -1,4 +1,4 @@
-module ModelParams
+module ModelAttributes
 
   class ChangeModel
 

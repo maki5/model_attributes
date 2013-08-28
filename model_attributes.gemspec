@@ -1,17 +1,17 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "model_params/version"
+require "model_attributes/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "model_params"
-  s.version     = ModelParams::VERSION
+  s.name        = "model_attributes"
+  s.version     = ModelAttributes::VERSION
   s.authors     = ["TODO: Your name"]
   s.email       = ["TODO: Your email"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ModelParams."
-  s.description = "TODO: Description of ModelParams."
+  s.summary     = "TODO: Summary of ModelAttributes."
+  s.description = "TODO: Description of ModelAttributes."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]

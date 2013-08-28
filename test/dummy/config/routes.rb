@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount ModelParams::Engine => "/model_params"
+  mount ModelAttributes::Engine => "/model_attributes"
 end

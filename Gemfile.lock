@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    model_params (0.0.1)
+    model_attributes (0.0.1)
       rails (~> 4.0.0)
 
 GEM
@@ -84,5 +84,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  model_params!
+  model_attributes!
   sqlite3

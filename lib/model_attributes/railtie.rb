@@ -1,12 +1,12 @@
-require 'model_params'
+require 'model_attributes'
 require 'rails'
 
-module ModelParams
+module ModelAttributes
   class Railtie < Rails::Railtie
 
     # configure our plugin on boot. other extension points such
     # as configuration, rake tasks, etc, are also available
-    initializer "model_params.initialize" do |app|
+    initializer "model_attributes.initialize" do |app|
       
       initial_ctime = 0
 

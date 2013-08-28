@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :model_params do
+# task :model_attributes do
 #   # Task goes here
 # end

@@ -1,4 +1,4 @@
-module ModelParams
+module ModelAttributes
   module ApplicationHelper
   end
 end
