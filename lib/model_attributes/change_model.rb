@@ -32,7 +32,7 @@ module ModelAttributes
         end        
 
         str.insert(0, "#" * 10 + " #{key}" + " Attributes " + "#" * 17 + "\n")
-        str.insert(str.length, "#" * 20 + " End of Attributes " + "#" * 10 + "\n" + "\n")
+        str.insert(str.length, "#" * 20 + " End of Attributes " + "#" * 10 + "\n")
         
         models[key] = str
       end
